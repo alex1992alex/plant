@@ -1,0 +1,147 @@
+
+
+*{
+  margin:0;
+  padding:0;
+
+}
+
+
+body{
+
+  font-family: "Montserrat";
+  text-align: center;
+  margin-right:0px;
+
+}
+
+h1, h2, h3,{
+    font-family: "Montserrat-Bold";
+}
+p{
+  text-align:left;
+}
+
+.titulo{
+  color: #ff971d;
+  font-size: 30px;
+}
+
+div.row{
+   margin-right: 0px;
+}
+
+div.container-fluid{
+   padding-right: 0px;
+}
+
+
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*----------comienso decabecera-------------*/
+
+.carousel-control-prev{
+    font-size: 20px;
+}
+.section-color{
+background-color:#cacaca;
+}
+.navbar-toggler{
+  padding: 0;
+}
+
+.nav-link{
+padding:20px;
+}
+
+.navbar-nav{
+  margin-left: auto;
+}
+.nav-item{
+
+padding: 0 18px;
+}
+.nav-link:hover{
+  color: yellow;
+
+}
+.dropdown-menu{
+  background-color:#fcfaf1;
+}
+
+/*-------------fin de cabecera----------*/
+/*----------------------------------------*/
+/*-----------------comienso  de carrosel-------------------*/
+
+.section-carousel{
+  background-image: url("img/cemento4.jpg");
+
+}
+
+.flecha{
+  font-size: 20px;
+  background-color:#ff971d;
+}
+
+
+
+.testimonial-image{
+width: 50%;
+
+margin: 20px;
+}
+/*---------fin de carrosel--------------*/
+/*----------------------------------------*/
+/*-------comienso sobre nosotros---------------------------*/
+.feature-box{
+padding: 5%;
+}
+.sobre-nosotros{
+  background-color: #fcfaf1;
+}
+
+/*---------fin de sobre nosotros--------------*/
+/*----------------------------------------*/
+/*---------galeria-------------------------------*/
+
+.galeria{
+
+  background-image: url("img/cemento.jpg");
+}
+
+.galeria:hover{
+  background-image: url("img/cemento4.jpg");
+
+}
+.text-galeria{
+  font-size: 1.5rem;
+  color:#7dce94;
+}
+
+/*-------fin de galeria----------------*/
+/*----------------------------------------*/
+/*----------contacto y ubicacion------------------------------*/
+.contacto-ubicacion{
+  background-color:#f0f0e4;
+}
+
+/*------fin de contacto y ubicacion
+-----------------*/
+/*----------------------------------------*/
+/*----------footer------------------------------*/
+
+
+.footer{
+background-color: #e6b31e;
+}
+.social-icon{
+  padding: 1% 2%;
+  font-size: 1.5rem;
+}
+.social-icon:hover{
+  color:#fcfaf1;
+}
+.text-footer{
+  text-align: center;
+}
